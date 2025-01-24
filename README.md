@@ -17,18 +17,15 @@ Excel e Power BI
 
 
 ## Arquivo utilizado ##
+[Base de dados desafio.xlsx](https://github.com/user-attachments/files/18533541/Base.de.dados.desafio.xlsx)
+
+## Formato Final ##
+<img width="195" alt="Dashboard Página 1" src="https://github.com/user-attachments/assets/47947369-f3da-4e7f-8926-9e512da9674c" />
+
+<img width="194" alt="Dashboard Pagina 2" src="https://github.com/user-attachments/assets/86085a05-98bb-4c96-b7f9-d126b844153e" />
 
 
-## Instalando o Robot Framework e Bibliotecas Relacionadas ##
-Você pode instalar o Robot Framework e as bibliotecas necessárias executando os seguintes comandos no terminal ou prompt de comando:
-pip install --upgrade robotframework
-pip install --upgrade robotframework-faker
 
-## Estensões Vscode ##
-Robot Framework Formatter 
-Robot Framework Language Server
-Robot Snippets
-Vscode-icons
 
 ## Como executar ##
 ```bash
