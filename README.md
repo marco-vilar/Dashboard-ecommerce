@@ -25,37 +25,30 @@ Excel e Power BI
 <img width="194" alt="Dashboard Pagina 2" src="https://github.com/user-attachments/assets/86085a05-98bb-4c96-b7f9-d126b844153e" />
 
 
+## Funcionamento do Dashboard ##
+Conforme solicitado no projeto. Foi desenvolvido um Dashboard com filtros e também com o mapa para identificação por estado, para análise completa dos dados.
+
+![Gif Página 1](https://github.com/user-attachments/assets/33afd2bc-935a-4687-923f-09ef31182bbb)
+
+![Gif Página 2](https://github.com/user-attachments/assets/1133a1dd-eab4-4d2d-8110-43a8edc83606)
 
 
-## Como executar ##
-```bash
-robot -d ./logs <nome_arquivo.robot>
-```
+## Arquitetura dos dados fornecidos ##
 
-Arquitetura
-
-├── logs
-    ├── .gitignore
-│   ├── log.html
-│   ├── output.xml
-│   ├── report.html
-│   
-├── README.md
-│   
-├── resources
-|   ├── keywords_gerar_massa.robot
-    ├── keywords_post.robot
-    ├── keywords_put.robot
-    ├── login.robot
-    ├── resource.robot
-    ├── variables.robot
-│   
-├── tests
-│   ├── company
-        ├── postCompany.robot
-        ├── putCompany.robot
-│
-├── users
-│   ├── company
-        ├── login_com_sucesso.robot
-        ├── post.robot
+├── base_compra
+|    ├── id_compra
+|    ├──id_canalvenda
+|    ├──bandeira
+|    ├──Data
+|    ├──Preço
+|    ├──Preço_com_frete
+|    ├──Nome_departamento
+|    ├──estado
+|    ├──cliente_log
+    
+├── base_cliente
+|    ├── cliente_log
+|    ├── idade
+|    ├── uf_nascimento
+|    ├── renda
+    
