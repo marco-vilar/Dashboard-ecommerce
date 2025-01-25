@@ -31,24 +31,3 @@ Conforme solicitado no projeto. Foi desenvolvido um Dashboard com filtros e tamb
 ![Gif Página 1](https://github.com/user-attachments/assets/33afd2bc-935a-4687-923f-09ef31182bbb)
 
 ![Gif Página 2](https://github.com/user-attachments/assets/1133a1dd-eab4-4d2d-8110-43a8edc83606)
-
-
-## Arquitetura dos dados fornecidos ##
-
-├── base_compra
-|    ├── id_compra
-|    ├──id_canalvenda
-|    ├──bandeira
-|    ├──Data
-|    ├──Preço
-|    ├──Preço_com_frete
-|    ├──Nome_departamento
-|    ├──estado
-|    ├──cliente_log
-    
-├── base_cliente
-|    ├── cliente_log
-|    ├── idade
-|    ├── uf_nascimento
-|    ├── renda
-    
